@@ -4,7 +4,7 @@ def main():
     f_perc = int(input('The number of females is '))
     total = m_perc + f_perc
 
-    print(f'The total number of students is {total}')
+    print(f'The total number of students is \t {total}')
     print (f'The percentage of males is \t {m_perc: .2f}')
     print (f'The percentage of females is \t {f_perc: .2f}')
 
